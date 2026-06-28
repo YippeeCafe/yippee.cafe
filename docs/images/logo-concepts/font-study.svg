@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1400" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe font direction study</title>
+  <desc id="desc">A study sheet comparing font directions for the Yippee Cafe wordmark.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.56" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <style>
+      .label { font: 900 30px Inter, Avenir Next, system-ui, sans-serif; fill: #251605; letter-spacing: .04em; }
+      .note { font: 700 22px Inter, Avenir Next, system-ui, sans-serif; fill: #6c4a1f; }
+      .card { fill: rgba(255,255,255,.72); stroke: rgba(37,22,5,.14); stroke-width: 4; }
+      .lasso { fill: none; stroke: #c67a16; stroke-width: 12; stroke-linecap: round; opacity: .8; }
+    </style>
+  </defs>
+  <rect width="1600" height="1400" rx="80" fill="#fff7e8"/>
+  <text x="800" y="82" text-anchor="middle" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="64" font-weight="900" fill="#251605">Yippee Cafe Font Directions</text>
+  <text x="800" y="126" text-anchor="middle" class="note">Not final font files — direction tests using available/system stacks</text>
+
+  <g transform="translate(70 180)">
+    <rect class="card" width="1460" height="175" rx="36"/>
+    <text x="36" y="44" class="label">A. Chunky rounded / mascot studio</text>
+    <text x="52" y="125" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="88" font-weight="900" letter-spacing="-5">Yippee</text>
+    <text x="420" y="125" fill="url(#sunset)" stroke="#251605" stroke-width="4" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="78" font-weight="900" letter-spacing="-3">Cafe</text>
+    <path class="lasso" d="M770 124c178 34 372 29 584-18"/>
+    <text x="1056" y="64" class="note">My current favorite for playful consumer apps</text>
+  </g>
+
+  <g transform="translate(70 395)">
+    <rect class="card" width="1460" height="175" rx="36"/>
+    <text x="36" y="44" class="label">B. Soft café / friendly but less goofy</text>
+    <text x="52" y="125" fill="#251605" font-family="Avenir Next Rounded, Nunito, Arial Rounded MT Bold, system-ui, sans-serif" font-size="92" font-weight="900" letter-spacing="-4">Yippee</text>
+    <text x="380" y="125" fill="url(#sunset)" stroke="#251605" stroke-width="3" paint-order="stroke fill" font-family="Avenir Next Rounded, Nunito, Arial Rounded MT Bold, system-ui, sans-serif" font-size="82" font-weight="900" letter-spacing="-2">Cafe</text>
+    <path class="lasso" d="M706 125c179 37 378 31 603-17"/>
+    <text x="1048" y="64" class="note">Best if we want broader/productizable</text>
+  </g>
+
+  <g transform="translate(70 610)">
+    <rect class="card" width="1460" height="175" rx="36"/>
+    <text x="36" y="44" class="label">C. Retro diner / café nostalgia</text>
+    <text x="52" y="126" fill="#251605" font-family="Georgia, Cooper Black, serif" font-size="88" font-weight="900" font-style="italic" letter-spacing="-5">Yippee</text>
+    <text x="382" y="126" fill="url(#sunset)" stroke="#251605" stroke-width="3" paint-order="stroke fill" font-family="Georgia, Cooper Black, serif" font-size="78" font-weight="900" font-style="italic" letter-spacing="-3">Cafe</text>
+    <path class="lasso" d="M703 126c178 29 376 22 590-26"/>
+    <text x="1050" y="64" class="note">Good for coffee/merch, less app-store-y</text>
+  </g>
+
+  <g transform="translate(70 825)">
+    <rect class="card" width="1460" height="175" rx="36"/>
+    <text x="36" y="44" class="label">D. Comic/game logo / maximal fun</text>
+    <text x="52" y="126" fill="#251605" font-family="Impact, Haettenschweiler, Baloo 2, fantasy" font-size="104" font-weight="900" letter-spacing="2">YIPPEE</text>
+    <text x="428" y="126" fill="url(#sunset)" stroke="#251605" stroke-width="4" paint-order="stroke fill" font-family="Impact, Haettenschweiler, Baloo 2, fantasy" font-size="92" font-weight="900" letter-spacing="2">CAFE</text>
+    <path class="lasso" d="M740 126c174 35 371 29 595-18"/>
+    <text x="1052" y="64" class="note">Strong for games, maybe too loud for tools</text>
+  </g>
+
+  <g transform="translate(70 1040)">
+    <rect class="card" width="1460" height="175" rx="36"/>
+    <text x="36" y="44" class="label">E. Clean tech + playful mark</text>
+    <text x="52" y="126" fill="#251605" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="92" font-weight="1000" letter-spacing="-7">Yippee</text>
+    <text x="368" y="126" fill="url(#sunset)" stroke="#251605" stroke-width="3" paint-order="stroke fill" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="82" font-weight="1000" letter-spacing="-4">Cafe</text>
+    <path class="lasso" d="M690 126c176 30 373 24 591-22"/>
+    <text x="1046" y="64" class="note">Most legible, least distinctive</text>
+  </g>
+
+  <text x="800" y="1304" text-anchor="middle" class="note">Recommendation: rounded main wordmark + clean/tiny hat accent + lasso underline; use clean sans for UI/body copy.</text>
+</svg>
