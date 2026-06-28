@@ -20,6 +20,11 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
+        <img
+          className="brand-logo"
+          src="/images/yippee-cafe-logo.svg"
+          alt="Yippee Cafe logo with a cowboy hat, lasso, and coffee cup"
+        />
         <div className="badge">fresh domain smell ✨</div>
         <h1>Yippee Cafe</h1>
         <p className="tagline">Playful apps, cooked fresh.</p>
