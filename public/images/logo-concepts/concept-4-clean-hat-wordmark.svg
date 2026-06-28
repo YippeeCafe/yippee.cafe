@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 4 - clean hat wordmark</title>
+  <desc id="desc">A playful wordmark with a simplified cream cowboy hat perched on the Y and a lasso underline.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="220" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 617c164 83 501 102 908 24" fill="none" stroke="#c67a16" stroke-width="26" stroke-linecap="round"/>
+    <path d="M963 628c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="18" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="691" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 691)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Clean simplified hat: cream body, single readable silhouette, small warm band -->
+    <g transform="translate(160 160) rotate(-10)">
+      <path d="M128 140c35-64 88-96 160-96 60 0 92 38 132 38 25 0 51-15 74-4 32 15 51 49 56 101-111 20-246 12-422-39z" fill="#ffe3a3" stroke="#251605" stroke-width="14" stroke-linejoin="round"/>
+      <path d="M161 140c79 27 192 40 344 23" fill="none" stroke="#fb8500" stroke-width="24" stroke-linecap="round"/>
+      <path d="M46 155c127 56 319 74 585 30 36-6 57 30 33 56-51 54-158 81-321 78-142-3-251-29-326-79-35-24-15-101 29-85z" fill="#ffd27b" stroke="#251605" stroke-width="14" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
