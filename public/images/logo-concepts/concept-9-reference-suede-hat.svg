@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 9 - reference suede cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using a cowboy hat shape closer to the provided reference: tall crown, integrated band, broad curled brim, and warm suede color.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="suede" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b76124"/>
+      <stop offset="0.48" stop-color="#d1843c"/>
+      <stop offset="1" stop-color="#8f4519"/>
+    </linearGradient>
+    <linearGradient id="suedeLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d99351"/>
+      <stop offset="0.5" stop-color="#c87531"/>
+      <stop offset="1" stop-color="#9b4a1c"/>
+    </linearGradient>
+    <radialGradient id="crownHighlight" cx="52%" cy="24%" r="72%">
+      <stop offset="0" stop-color="#e2a060" stop-opacity="0.84"/>
+      <stop offset="0.36" stop-color="#c97733" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7d3514" stop-opacity="0.2"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.18"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="220" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Reference-inspired hat: tall crown, smooth integrated band, broad curled brim. -->
+    <g transform="translate(160 128) rotate(-9) scale(.98)">
+      <!-- ground/reflection echo from reference image -->
+      <ellipse cx="390" cy="306" rx="335" ry="38" fill="#251605" opacity="0.12" filter="url(#softShadow)"/>
+
+      <!-- back-left curled brim plane -->
+      <path d="M61 216c71-49 157-65 260-48 24 4 39 21 35 42-8 41-54 69-138 83-70 12-128 3-174-25-25-15-18-37 17-52z" fill="url(#suedeLight)" stroke="#251605" stroke-width="13" stroke-linejoin="round"/>
+      <path d="M72 221c77-23 160-28 248-14" fill="none" stroke="#f0a866" stroke-width="10" opacity="0.35" stroke-linecap="round"/>
+
+      <!-- main broad brim; right side long and upturned like the reference -->
+      <path d="M65 231c99 54 224 75 373 63 158-12 278-38 414-72 59-15 102-2 118 22 18 27-12 55-82 68-201 38-363 60-529 55-153-5-272-35-356-91-43-29 10-73 62-45z" fill="url(#suede)" stroke="#251605" stroke-width="13" stroke-linejoin="round"/>
+      <path d="M115 247c106 35 235 47 387 36 151-11 278-33 381-62" fill="none" stroke="#f3aa62" stroke-width="10" stroke-linecap="round" opacity="0.34"/>
+      <path d="M793 230c72 0 130 8 174 25" fill="none" stroke="#6d2f13" stroke-width="9" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- tall crown sits into brim; not detached -->
+      <path d="M282 255c-4-62-3-124 3-187 5-54 40-86 95-94 92-13 187 3 232 34 31 22 43 58 40 106-4 59-5 105 5 141-85 28-284 29-375 0z" fill="url(#suede)" stroke="#251605" stroke-width="13" stroke-linejoin="round"/>
+      <path d="M300 249c78 24 249 27 341 1" fill="none" stroke="#51220d" stroke-width="14" stroke-linecap="round" opacity="0.45"/>
+      <!-- matching band at base of crown -->
+      <path d="M296 238c78 24 258 28 349 2" fill="none" stroke="#6f3214" stroke-width="28" stroke-linecap="round"/>
+      <path d="M305 232c84 18 233 20 326 2" fill="none" stroke="#ba682a" stroke-width="8" stroke-linecap="round" opacity="0.58"/>
+
+      <!-- crown highlight / central crease cue -->
+      <path d="M306 72c73 23 159 29 252 14 33-5 60 2 77 18" fill="none" stroke="#e6a262" stroke-width="26" stroke-linecap="round" opacity="0.25"/>
+      <path d="M425 20c-40 41-59 92-56 154" fill="none" stroke="#6c2d10" stroke-width="13" stroke-linecap="round" opacity="0.42"/>
+      <path d="M548 28c39 42 55 91 48 147" fill="none" stroke="#6c2d10" stroke-width="13" stroke-linecap="round" opacity="0.42"/>
+      <path d="M395 63c57 23 121 25 194 5" fill="none" stroke="#f0b171" stroke-width="12" stroke-linecap="round" opacity="0.35"/>
+      <path d="M284 255c87 28 286 28 373 0" fill="none" stroke="#f0b171" stroke-width="8" stroke-linecap="round" opacity="0.28"/>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
