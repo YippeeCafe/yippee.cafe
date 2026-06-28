@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 1 - rodeo badge</title>
+  <desc id="desc">A circular rodeo-style badge with Yippee Cafe text, cowboy hat, lasso, coffee cup, and star accents.</desc>
+  <defs>
+    <linearGradient id="badgeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d6"/>
+      <stop offset="0.55" stop-color="#ffe0a3"/>
+      <stop offset="1" stop-color="#ffc7d7"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffbe0b"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff5f8f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#251605" flood-opacity="0.22"/>
+    </filter>
+    <path id="topArc" d="M 227 607 A 373 373 0 0 1 973 607"/>
+    <path id="bottomArc" d="M 974 625 A 374 374 0 0 1 226 625"/>
+  </defs>
+
+  <rect width="1200" height="1200" rx="112" fill="#fff7e8"/>
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="600" r="478" fill="url(#badgeBg)" stroke="#251605" stroke-width="24"/>
+    <circle cx="600" cy="600" r="412" fill="none" stroke="#251605" stroke-width="10" stroke-dasharray="28 22" opacity="0.55"/>
+  </g>
+
+  <text font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="94" font-weight="900" letter-spacing="6" fill="#251605">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">YIPPEE</textPath>
+  </text>
+  <text font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="83" font-weight="900" letter-spacing="6" fill="#251605">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">CAFE</textPath>
+  </text>
+
+  <!-- Lasso -->
+  <ellipse cx="600" cy="600" rx="206" ry="128" fill="none" stroke="#c67a16" stroke-width="24" transform="rotate(-15 600 600)"/>
+  <path d="M448 706c-67 66-128 128-188 185" fill="none" stroke="#c67a16" stroke-width="20" stroke-linecap="round"/>
+  <path d="M471 683c-36 12-58 42-60 79" fill="none" stroke="#c67a16" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- Cup -->
+  <g transform="translate(435 478)">
+    <path d="M70 88h274l-31 211c-9 60-61 104-123 104h-34c-62 0-114-44-123-104L2 88h68z" fill="#fff" stroke="#251605" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M344 139h53c55 0 96 44 90 97-7 50-50 87-101 87h-67" fill="none" stroke="#251605" stroke-width="18" stroke-linecap="round"/>
+    <path d="M82 153h246" stroke="url(#brand)" stroke-width="35" stroke-linecap="round"/>
+    <path d="M112 38c-24-29-8-58 16-84M203 41c-27-34-6-62 16-91M294 38c-26-31-7-61 17-88" fill="none" stroke="#fb8500" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <!-- Hat -->
+  <g transform="translate(371 264) rotate(-7)">
+    <path d="M77 146c48-82 118-122 209-122 54 0 87 31 115 31 27 0 61-22 99-6 49 21 75 70 85 135-126 25-257 23-508-38z" fill="#8b4a17" stroke="#251605" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M116 147c91 37 239 57 430 29" fill="none" stroke="#ffcf33" stroke-width="28" stroke-linecap="round"/>
+    <path d="M-6 163c153 64 375 81 682 21 38-8 67 29 44 60-42 56-143 89-303 99-188 12-337-17-444-89-34-22-19-105 21-91z" fill="#a85f21" stroke="#251605" stroke-width="18" stroke-linejoin="round"/>
+  </g>
+
+  <text x="600" y="1022" text-anchor="middle" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5" fill="#6c4a1f">PLAYFUL APPS • GAMES • TOOLS</text>
+  <text x="244" y="604" text-anchor="middle" font-size="64" fill="#ffbe0b">★</text>
+  <text x="956" y="604" text-anchor="middle" font-size="64" fill="#ffbe0b">★</text>
+</svg>
