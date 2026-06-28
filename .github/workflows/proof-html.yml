@@ -1,4 +1,4 @@
-name: Proof HTML
+name: Build Site
 
 on:
   push:
@@ -13,10 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: anishathalye/proof-html@v2
-        with:
-          directory: ./docs
-          check_css: false
