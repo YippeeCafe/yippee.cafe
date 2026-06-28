@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 12 - black concho cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using a black cowboy hat reference: creased crown, upturned brim, and silver conchos on the band.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="blackFelt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47413a"/>
+      <stop offset="0.52" stop-color="#181512"/>
+      <stop offset="1" stop-color="#050404"/>
+    </linearGradient>
+    <linearGradient id="blackBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b544b"/>
+      <stop offset="0.55" stop-color="#211d19"/>
+      <stop offset="1" stop-color="#060505"/>
+    </linearGradient>
+    <radialGradient id="silver" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.42" stop-color="#c8c6bd"/>
+      <stop offset="1" stop-color="#5b5b57"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="210" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Black concho reference: high creased crown, broad upturned brim, silver concho band. -->
+    <g transform="translate(150 106) rotate(-8) scale(.98)">
+      <path d="M62 236c74-62 163-82 267-58 35 8 51 31 40 60-17 45-71 75-163 90-71 11-127-1-166-34-29-24-18-42 22-58z" fill="#171412" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M42 241c101 49 236 71 406 63 158-7 303-36 437-81 65-22 114-9 128 23 16 36-28 71-112 88-216 44-399 66-567 53-149-11-262-43-340-97-43-30-3-72 48-49z" fill="url(#blackBrim)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M96 254c112 32 244 44 396 34 151-10 283-34 399-72" fill="none" stroke="#82786b" stroke-width="11" stroke-linecap="round" opacity="0.36"/>
+      <path d="M810 224c78 0 144 10 196 32" fill="none" stroke="#050404" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+
+      <path d="M290 263c-5-70-3-139 8-205 8-56 45-90 104-99 94-13 193 8 238 44 34 27 45 65 40 115-7 63-6 112 7 146-98 31-302 31-397-1z" fill="url(#blackFelt)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M438 7c-47 48-69 107-65 178" fill="none" stroke="#817569" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
+      <path d="M562 18c42 50 59 106 51 168" fill="none" stroke="#817569" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
+      <path d="M397 64c63 25 137 29 220 8" fill="none" stroke="#867b70" stroke-width="14" stroke-linecap="round" opacity="0.35"/>
+      <path d="M292 263c93 29 298 29 394 0" fill="none" stroke="#6e645a" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- Band + silver conchos -->
+      <path d="M305 241c82 27 269 30 367 2" fill="none" stroke="#15110f" stroke-width="31" stroke-linecap="round"/>
+      <path d="M317 236c89 19 247 21 342 2" fill="none" stroke="#3d342d" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <g stroke="#1e1e1c" stroke-width="3">
+        <circle cx="344" cy="240" r="12" fill="url(#silver)"/>
+        <circle cx="394" cy="247" r="12" fill="url(#silver)"/>
+        <circle cx="444" cy="250" r="12" fill="url(#silver)"/>
+        <circle cx="494" cy="250" r="12" fill="url(#silver)"/>
+        <circle cx="544" cy="247" r="12" fill="url(#silver)"/>
+        <circle cx="594" cy="242" r="12" fill="url(#silver)"/>
+        <circle cx="644" cy="235" r="12" fill="url(#silver)"/>
+      </g>
+      <g fill="#1e1e1c" opacity="0.7">
+        <circle cx="344" cy="240" r="3"/><circle cx="394" cy="247" r="3"/><circle cx="444" cy="250" r="3"/><circle cx="494" cy="250" r="3"/><circle cx="544" cy="247" r="3"/><circle cx="594" cy="242" r="3"/><circle cx="644" cy="235" r="3"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>

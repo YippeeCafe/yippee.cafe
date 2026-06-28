@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 13 - distressed cutout cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using a distressed dark cowboy hat reference: creased crown, upturned brim, braided dark band, and zig-zag mesh cutout details.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="distressed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#706b62"/>
+      <stop offset="0.42" stop-color="#272421"/>
+      <stop offset="1" stop-color="#070606"/>
+    </linearGradient>
+    <linearGradient id="distressedBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a8172"/>
+      <stop offset="0.44" stop-color="#302b27"/>
+      <stop offset="1" stop-color="#080707"/>
+    </linearGradient>
+    <pattern id="braidDark" width="34" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(-8)">
+      <path d="M-4 14L12 0M10 14L26 0M24 14L40 0" stroke="#0c0a09" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-6 0L10 14M8 0L24 14M22 0L38 14" stroke="#5d5145" stroke-width="4" stroke-linecap="round"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="210" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Distressed dark reference: creased crown, upturned brim, dark braid, zig-zag mesh/cutouts. -->
+    <g transform="translate(150 106) rotate(-8) scale(.98)">
+      <path d="M58 236c78-66 169-86 272-58 36 10 51 34 38 64-18 44-72 74-164 89-70 11-124-1-164-35-29-25-14-44 18-60z" fill="#141210" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M42 242c101 52 236 74 407 65 160-8 306-38 441-86 65-23 116-10 132 23 17 36-29 72-115 90-219 45-404 68-572 55-149-12-262-45-340-101-44-31-4-72 47-46z" fill="url(#distressedBrim)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M95 255c112 33 244 46 397 35 153-11 287-36 405-76" fill="none" stroke="#9a9080" stroke-width="11" stroke-linecap="round" opacity="0.32"/>
+      <path d="M814 223c79 0 146 10 200 32" fill="none" stroke="#060505" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+
+      <path d="M290 264c-6-71-3-141 8-207 8-57 45-91 105-100 95-13 195 8 241 45 34 28 45 66 40 117-7 64-6 113 7 147-99 31-306 31-401-2z" fill="url(#distressed)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M439 6c-48 49-70 109-66 180" fill="none" stroke="#90867a" stroke-width="12" stroke-linecap="round" opacity="0.42"/>
+      <path d="M565 18c43 50 61 107 52 170" fill="none" stroke="#90867a" stroke-width="12" stroke-linecap="round" opacity="0.42"/>
+      <path d="M397 64c64 25 139 29 223 8" fill="none" stroke="#9d9184" stroke-width="14" stroke-linecap="round" opacity="0.35"/>
+
+      <!-- zig-zag cutout / mesh row near top -->
+      <path d="M342 100l22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22" fill="none" stroke="#050505" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M342 100l22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22 22-22 22 22" fill="none" stroke="#5d5f5e" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" opacity="0.75"/>
+      <path d="M344 88c82 18 173 18 272 0" fill="none" stroke="#151515" stroke-width="5" stroke-dasharray="2 7" opacity="0.7"/>
+
+      <!-- dark braided band -->
+      <path d="M304 242c83 27 273 30 372 2" fill="none" stroke="#0c0a09" stroke-width="31" stroke-linecap="round"/>
+      <path d="M307 241c83 26 268 28 367 2" fill="none" stroke="url(#braidDark)" stroke-width="24" stroke-linecap="round"/>
+
+      <!-- distress/scuff strokes -->
+      <path d="M332 155c35 5 66 1 94-10M535 146c38-10 78-9 120 2M462 206c46 10 91 8 136-6M116 264c54 15 112 20 174 15M660 284c68-6 132-18 190-36" fill="none" stroke="#b0a696" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+      <path d="M292 264c94 30 301 30 398 0" fill="none" stroke="#817669" stroke-width="8" stroke-linecap="round" opacity="0.42"/>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
