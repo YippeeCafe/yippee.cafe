@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe square logo</title>
+  <desc id="desc">A square Yippee Cafe logo with a prominent cream cowboy hat, clear Yippee Cafe typography, and a clean lasso swoosh.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9ec"/>
+      <stop offset="0.58" stop-color="#fff2d2"/>
+      <stop offset="1" stop-color="#ffe3a8"/>
+    </linearGradient>
+    <linearGradient id="felt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset="0.46" stop-color="#eee4cb"/>
+      <stop offset="1" stop-color="#cbb98f"/>
+    </linearGradient>
+    <linearGradient id="brim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.48" stop-color="#e8d8b9"/>
+      <stop offset="1" stop-color="#a88755"/>
+    </linearGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd86c"/>
+      <stop offset="0.48" stop-color="#d98a20"/>
+      <stop offset="1" stop-color="#8e4511"/>
+    </linearGradient>
+    <radialGradient id="silver" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#fffef8"/>
+      <stop offset="0.44" stop-color="#d5d2c8"/>
+      <stop offset="1" stop-color="#4f4d46"/>
+    </radialGradient>
+    <radialGradient id="turquoise" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#d7fff8"/>
+      <stop offset="0.46" stop-color="#42c6bd"/>
+      <stop offset="1" stop-color="#0b615d"/>
+    </radialGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#3a2108" flood-opacity="0.18"/>
+    </filter>
+    <filter id="typeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#edae3f" flood-opacity="0.78"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="96" fill="url(#bg)"/>
+  <path d="M42 92 C98 47 164 49 224 98" fill="none" stroke="#ff7a90" stroke-width="22" stroke-linecap="round" opacity="0.13"/>
+  <path d="M405 86 C462 48 532 66 566 128" fill="none" stroke="#28a9bc" stroke-width="25" stroke-linecap="round" opacity="0.13"/>
+  <path d="M392 546 C449 501 519 514 565 569" fill="none" stroke="#5fad56" stroke-width="23" stroke-linecap="round" opacity="0.12"/>
+
+  <!-- Hat: prominent top icon, separate from type so it never covers the wordmark. -->
+  <g transform="translate(68 48) rotate(-5) scale(.42)" filter="url(#shadow)">
+    <path d="M34 247 C146 294 310 318 502 307 C675 297 833 267 982 215 C1045 193 1105 204 1124 239 C1147 280 1086 319 985 338 C748 385 529 405 330 387 C175 373 55 340 -41 282 C-88 254 -24 223 34 247Z" fill="url(#brim)" stroke="#211506" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M88 255 C224 285 386 294 559 282 C722 271 865 247 996 211" fill="none" stroke="#fff9e7" stroke-width="10" stroke-linecap="round" opacity="0.76"/>
+    <path d="M304 282 C291 193 296 116 319 45 C337 -11 382 -42 449 -49 C553 -60 643 -40 693 2 C732 34 747 77 741 132 C733 197 739 247 758 280 C642 316 421 316 304 282Z" fill="url(#felt)" stroke="#211506" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M403 50 C482 82 591 87 704 59" fill="none" stroke="#fffdf0" stroke-width="15" stroke-linecap="round" opacity="0.82"/>
+    <path d="M462 -38 C417 18 398 82 404 154" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.52"/>
+    <path d="M616 -30 C654 24 668 86 657 155" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.5"/>
+    <path d="M319 259 C423 292 641 294 746 263" fill="none" stroke="#1c1712" stroke-width="36" stroke-linecap="round"/>
+    <path d="M337 254 C446 276 628 277 730 257" fill="none" stroke="#4c3728" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="371" cy="257" r="18" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="430" cy="267" r="9" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="488" cy="270" r="9" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="546" cy="270" r="9" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="604" cy="265" r="9" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="688" cy="252" r="18" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#typeShadow)">
+    <text x="300" y="348" text-anchor="middle" fill="#241507" font-family="Georgia, 'Times New Roman', serif" font-size="116" font-weight="900" letter-spacing="-5">Yippee</text>
+  </g>
+  <path d="M127 366 C178 382 422 382 473 366" fill="none" stroke="#241507" stroke-width="5" stroke-linecap="round" opacity="0.88"/>
+  <text x="300" y="444" text-anchor="middle" fill="#fff9ec" stroke="#241507" stroke-width="5" paint-order="stroke fill" font-family="Avenir Next, Montserrat, Inter, system-ui, sans-serif" font-size="68" font-weight="900" letter-spacing="14">CAFE</text>
+
+  <!-- Compact physically correct lasso: swoosh under the lockup, one loop and one honda knot. -->
+  <g filter="url(#shadow)">
+    <path d="M75 487 C150 520 275 522 395 497 C421 492 438 479 449 442" fill="none" stroke="#754010" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M75 487 C150 520 275 522 395 497 C421 492 438 479 449 442" fill="none" stroke="url(#rope)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M88 492 C164 514 276 514 390 492 C413 487 428 475 439 443" fill="none" stroke="#ffe38c" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.86"/>
+    <path d="M449 442 C449 402 482 374 526 376 C570 378 592 408 572 445 C550 486 477 489 455 456 C452 451 450 446 449 442Z" fill="none" stroke="#754010" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M449 442 C449 402 482 374 526 376 C570 378 592 408 572 445 C550 486 477 489 455 456 C452 451 450 446 449 442Z" fill="none" stroke="url(#rope)" stroke-width="12" stroke-linejoin="round"/>
+    <g transform="translate(449 442) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="15" ry="11" fill="#bf6a18" stroke="#754010" stroke-width="5"/>
+      <ellipse cx="-2" cy="-1" rx="5" ry="3" fill="#fff1a3" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
