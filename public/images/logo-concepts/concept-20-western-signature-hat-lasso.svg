@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 20 - western signature hat and correct lasso</title>
+  <desc id="desc">A Yippee Cafe logo concept with a prominent cream western hat, unobstructed custom-feeling typography, and a single physically plausible lariat swoosh.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9ec"/>
+      <stop offset="0.58" stop-color="#fff2d2"/>
+      <stop offset="1" stop-color="#ffe5ad"/>
+    </linearGradient>
+    <linearGradient id="felt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset="0.42" stop-color="#eee4cb"/>
+      <stop offset="1" stop-color="#cbb98f"/>
+    </linearGradient>
+    <linearGradient id="brim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.46" stop-color="#e8d8b9"/>
+      <stop offset="1" stop-color="#a88755"/>
+    </linearGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd86c"/>
+      <stop offset="0.48" stop-color="#d98a20"/>
+      <stop offset="1" stop-color="#8e4511"/>
+    </linearGradient>
+    <radialGradient id="turquoise" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#d7fff8"/>
+      <stop offset="0.46" stop-color="#42c6bd"/>
+      <stop offset="1" stop-color="#0b615d"/>
+    </radialGradient>
+    <radialGradient id="silver" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#fffef8"/>
+      <stop offset="0.44" stop-color="#d5d2c8"/>
+      <stop offset="1" stop-color="#4f4d46"/>
+    </radialGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#3a2108" flood-opacity="0.18"/>
+    </filter>
+    <filter id="smallShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="0" flood-color="#edae3f" flood-opacity="0.76"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="900" rx="72" fill="url(#bg)"/>
+  <path d="M89 157 C214 63 337 68 458 171" fill="none" stroke="#ff7a90" stroke-width="34" stroke-linecap="round" opacity="0.12"/>
+  <path d="M1006 167 C1126 85 1261 119 1322 241" fill="none" stroke="#28a9bc" stroke-width="42" stroke-linecap="round" opacity="0.12"/>
+  <path d="M983 770 C1082 690 1197 699 1282 796" fill="none" stroke="#5fad56" stroke-width="36" stroke-linecap="round" opacity="0.11"/>
+
+  <!-- Hat: prominent, integrated crown/brim, no floating seam. Inspired by the lighter reference hats. -->
+  <g transform="translate(296 55) rotate(-5) scale(.76)" filter="url(#shadow)">
+    <path d="M34 247 C146 294 310 318 502 307 C675 297 833 267 982 215 C1045 193 1105 204 1124 239 C1147 280 1086 319 985 338 C748 385 529 405 330 387 C175 373 55 340 -41 282 C-88 254 -24 223 34 247Z" fill="url(#brim)" stroke="#211506" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M88 255 C224 285 386 294 559 282 C722 271 865 247 996 211" fill="none" stroke="#fff9e7" stroke-width="10" stroke-linecap="round" opacity="0.76"/>
+    <path d="M172 310 C367 350 648 337 892 285" fill="none" stroke="#8d6d3d" stroke-width="7" stroke-linecap="round" opacity="0.32"/>
+
+    <path d="M304 282 C291 193 296 116 319 45 C337 -11 382 -42 449 -49 C553 -60 643 -40 693 2 C732 34 747 77 741 132 C733 197 739 247 758 280 C642 316 421 316 304 282Z" fill="url(#felt)" stroke="#211506" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M403 50 C482 82 591 87 704 59" fill="none" stroke="#fffdf0" stroke-width="15" stroke-linecap="round" opacity="0.82"/>
+    <path d="M462 -38 C417 18 398 82 404 154" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.52"/>
+    <path d="M616 -30 C654 24 668 86 657 155" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.5"/>
+
+    <path d="M319 259 C423 292 641 294 746 263" fill="none" stroke="#1c1712" stroke-width="35" stroke-linecap="round"/>
+    <path d="M337 254 C446 276 628 277 730 257" fill="none" stroke="#4c3728" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="371" cy="257" r="17" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="430" cy="267" r="8" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="488" cy="270" r="8" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="546" cy="270" r="8" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="604" cy="265" r="8" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="688" cy="252" r="17" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+  </g>
+
+  <!-- Typography: separated from icon, more designed/brand-like. No lasso or hat crosses the letters. -->
+  <g filter="url(#smallShadow)">
+    <text x="700" y="525" text-anchor="middle" fill="#241507" font-family="Georgia, 'Times New Roman', serif" font-size="182" font-weight="900" letter-spacing="-7">Yippee</text>
+  </g>
+  <path d="M298 548 C408 577 992 577 1102 548" fill="none" stroke="#241507" stroke-width="7" stroke-linecap="round" opacity="0.88"/>
+  <text x="700" y="660" text-anchor="middle" fill="#fff9ec" stroke="#241507" stroke-width="7" paint-order="stroke fill" font-family="Avenir Next, Montserrat, Inter, system-ui, sans-serif" font-size="108" font-weight="900" letter-spacing="23">CAFE</text>
+
+  <!-- Lariat: one continuous standing rope into one loop with a single honda knot. The swoosh sits below the wordmark. -->
+  <g filter="url(#shadow)">
+    <path d="M176 708 C330 758 594 759 812 718 C856 710 885 689 904 625" fill="none" stroke="#754010" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M176 708 C330 758 594 759 812 718 C856 710 885 689 904 625" fill="none" stroke="url(#rope)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M202 715 C358 748 589 748 805 710 C844 703 871 683 890 626" fill="none" stroke="#ffe38c" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 20" opacity="0.86"/>
+
+    <path d="M904 625 C903 548 967 493 1051 496 C1137 499 1180 557 1141 628 C1098 706 956 713 914 649 C909 642 906 634 904 625Z" fill="none" stroke="#754010" stroke-width="29" stroke-linejoin="round"/>
+    <path d="M904 625 C903 548 967 493 1051 496 C1137 499 1180 557 1141 628 C1098 706 956 713 914 649 C909 642 906 634 904 625Z" fill="none" stroke="url(#rope)" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M920 625 C924 564 976 522 1045 523 C1112 524 1145 565 1117 622 C1082 681 977 689 935 643" fill="none" stroke="#ffe38c" stroke-width="4" stroke-dasharray="2 20" opacity="0.72"/>
+    <g transform="translate(904 625) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="25" ry="18" fill="#bf6a18" stroke="#754010" stroke-width="8"/>
+      <ellipse cx="-3" cy="-2" rx="9" ry="6" fill="#fff1a3" opacity="0.5"/>
+    </g>
+  </g>
+
+  <text x="700" y="815" text-anchor="middle" fill="#6d4b20" font-family="Avenir Next, Inter, system-ui, sans-serif" font-size="30" font-weight="900" letter-spacing="6">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
