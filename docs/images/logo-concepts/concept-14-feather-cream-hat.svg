@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 14 - feather cream cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using an off-white cowboy hat reference: high rounded crown, wide brim, thin black band, small concho, and colorful feather accent.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.52" stop-color="#f1ead2"/>
+      <stop offset="1" stop-color="#d9cba6"/>
+    </linearGradient>
+    <linearGradient id="creamBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffef2"/>
+      <stop offset="0.58" stop-color="#eee4c8"/>
+      <stop offset="1" stop-color="#cab88e"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#fff1a6"/>
+      <stop offset="0.45" stop-color="#d7a33b"/>
+      <stop offset="1" stop-color="#7a4d15"/>
+    </radialGradient>
+    <pattern id="woven" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+      <path d="M0 0h10" stroke="#b9a982" stroke-width="1" opacity="0.22"/>
+      <path d="M0 5h10" stroke="#fffdf1" stroke-width="1" opacity="0.28"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="210" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Off-white reference: clean crown, broad brim, thin black band, concho + feather side accent. -->
+    <g transform="translate(140 112) rotate(-8) scale(.98)">
+      <!-- subtle underside / back-left brim curl -->
+      <path d="M55 246c84-68 177-88 281-61 37 10 53 35 39 65-20 44-76 73-169 87-74 11-130-1-170-36-31-26-16-40 19-55z" fill="#d5c69d" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <!-- wide, flatter brim with right tip rising like the reference -->
+      <path d="M37 250c105 45 247 63 428 55 160-7 308-35 447-76 67-20 119-7 135 24 17 35-29 66-116 82-225 42-415 62-590 49-154-11-272-39-355-90-45-28-2-65 51-44z" fill="url(#creamBrim)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M92 260c119 28 258 38 419 29 154-9 292-31 414-65" fill="none" stroke="#fffef2" stroke-width="11" stroke-linecap="round" opacity="0.76"/>
+      <path d="M835 234c81 0 149 10 204 30" fill="none" stroke="#b9a982" stroke-width="9" stroke-linecap="round" opacity="0.42"/>
+
+      <!-- high rounded crown with pinched top basin -->
+      <path d="M300 265c-8-75-7-145 4-211 9-55 46-88 107-96 96-12 200 8 247 45 35 28 47 67 42 119-7 65-5 114 10 145-101 29-311 28-410-2z" fill="url(#cream)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M392 63c75 28 162 31 260 8" fill="none" stroke="#fffef2" stroke-width="16" stroke-linecap="round" opacity="0.74"/>
+      <path d="M424 10c-45 46-67 101-65 168" fill="none" stroke="#b3a17a" stroke-width="12" stroke-linecap="round" opacity="0.43"/>
+      <path d="M577 20c42 49 60 104 52 166" fill="none" stroke="#b3a17a" stroke-width="12" stroke-linecap="round" opacity="0.43"/>
+      <path d="M301 265c95 28 309 29 408 1" fill="none" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.68"/>
+      <!-- woven straw/felt texture, very subtle -->
+      <path d="M320 70c78 18 220 18 356-3l12 153c-112 25-270 25-382-2z" fill="url(#woven)" opacity="0.34"/>
+
+      <!-- thin black band -->
+      <path d="M311 247c85 27 279 29 381 2" fill="none" stroke="#15120f" stroke-width="18" stroke-linecap="round"/>
+      <path d="M325 244c92 19 258 20 355 2" fill="none" stroke="#3c3022" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+
+      <!-- concho detail near right side -->
+      <g transform="translate(684 238) rotate(-9)">
+        <path d="M0 20c0-13 12-24 26-24s26 11 26 24-12 24-26 24S0 33 0 20z" fill="url(#gold)" stroke="#251605" stroke-width="4"/>
+        <path d="M15 20c0-6 5-11 11-11s11 5 11 11-5 11-11 11-11-5-11-11z" fill="#fff4bb" stroke="#7a4d15" stroke-width="3"/>
+        <path d="M7 20h38M26 2v36" stroke="#7a4d15" stroke-width="3" opacity="0.55"/>
+      </g>
+
+      <!-- upright feather cluster: red, green, brown/black, simplified for logo scale -->
+      <g transform="translate(693 104) rotate(10)">
+        <path d="M32 148C12 86 20 35 57 0c22 58 16 107-25 148z" fill="#192418" stroke="#251605" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M38 145C35 84 53 38 92 7c10 59-8 105-54 138z" fill="#1f6f3e" stroke="#251605" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M50 148c4-61 26-105 67-132 2 58-20 103-67 132z" fill="#d12d3a" stroke="#251605" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M26 151C3 106 2 66 25 32c23 44 23 83 1 119z" fill="#6a3f1d" stroke="#251605" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M31 147 57 1M38 145 92 7M50 148 117 16M26 151 25 32" stroke="#fff6d9" stroke-width="3" opacity="0.55" stroke-linecap="round"/>
+        <path d="M17 153c35 13 70 13 106 0" stroke="#15120f" stroke-width="10" stroke-linecap="round"/>
+        <circle cx="40" cy="156" r="5" fill="#f7f1dc"/><circle cx="57" cy="158" r="5" fill="#f7f1dc"/><circle cx="74" cy="158" r="5" fill="#f7f1dc"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
