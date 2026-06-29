@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 15 - leather stitched cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using a brown leather cowboy hat reference: high folded crown, wide upturned brim, stitched band, and punched-hole accents.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b46a31"/>
+      <stop offset="0.42" stop-color="#7b3e19"/>
+      <stop offset="1" stop-color="#3f1d0c"/>
+    </linearGradient>
+    <linearGradient id="leatherBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c07b40"/>
+      <stop offset="0.5" stop-color="#6f3515"/>
+      <stop offset="1" stop-color="#2f1508"/>
+    </linearGradient>
+    <pattern id="grain" width="44" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <path d="M2 12c9-9 19-9 30 0M16 24c8-7 17-7 27 0M-8 2c12 7 24 7 36 0" fill="none" stroke="#f1b16f" stroke-width="2" opacity="0.18"/>
+      <path d="M6 20c12-5 23-5 34 0" fill="none" stroke="#1f0d05" stroke-width="2" opacity="0.16"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="210" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Brown leather reference: folded high crown, upturned wide brim, stitched band, punched-hole accents. -->
+    <g transform="translate(142 108) rotate(-8) scale(.98)">
+      <!-- underside curl -->
+      <path d="M58 240c80-68 174-89 282-60 38 10 55 36 41 68-20 46-78 77-174 91-75 11-133-1-175-37-31-27-16-45 26-62z" fill="#3a190a" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <!-- broad brim with both sides lifting -->
+      <path d="M39 246c106 52 250 75 432 65 163-8 316-39 455-88 68-24 121-10 137 24 17 38-31 75-120 93-229 47-422 70-600 56-157-12-276-46-358-103-47-32-2-74 54-47z" fill="url(#leatherBrim)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M39 246c106 52 250 75 432 65 163-8 316-39 455-88 68-24 121-10 137 24 17 38-31 75-120 93-229 47-422 70-600 56-157-12-276-46-358-103-47-32-2-74 54-47z" fill="url(#grain)" opacity="0.55"/>
+      <path d="M96 260c119 36 260 49 423 38 159-11 299-37 420-79" fill="none" stroke="#d08a50" stroke-width="11" stroke-linecap="round" opacity="0.4"/>
+      <path d="M846 228c82 1 151 12 207 35" fill="none" stroke="#1e0c04" stroke-width="9" stroke-linecap="round" opacity="0.56"/>
+
+      <!-- high leather crown with fold/crease texture -->
+      <path d="M300 268c-8-75-6-147 6-216 10-58 49-94 112-103 99-14 204 8 253 47 36 29 48 69 43 122-8 66-6 117 10 151-103 32-321 31-424-1z" fill="url(#leather)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M300 268c-8-75-6-147 6-216 10-58 49-94 112-103 99-14 204 8 253 47 36 29 48 69 43 122-8 66-6 117 10 151-103 32-321 31-424-1z" fill="url(#grain)" opacity="0.5"/>
+      <!-- central creases and leather folds -->
+      <path d="M428 5c-48 50-71 111-67 184" fill="none" stroke="#2a1005" stroke-width="13" stroke-linecap="round" opacity="0.55"/>
+      <path d="M585 18c44 52 62 111 53 176" fill="none" stroke="#2a1005" stroke-width="13" stroke-linecap="round" opacity="0.55"/>
+      <path d="M395 67c67 27 145 31 235 9" fill="none" stroke="#da9153" stroke-width="15" stroke-linecap="round" opacity="0.34"/>
+      <path d="M350 132c45 18 86 16 125-6M552 139c48-13 91-10 130 9M462 206c51 12 101 9 151-8" fill="none" stroke="#d08a50" stroke-width="7" stroke-linecap="round" opacity="0.32"/>
+      <path d="M301 268c99 31 319 31 421 0" fill="none" stroke="#d08a50" stroke-width="8" stroke-linecap="round" opacity="0.42"/>
+
+      <!-- stitched decorative band -->
+      <path d="M314 247c88 29 290 31 395 2" fill="none" stroke="#4a2110" stroke-width="31" stroke-linecap="round"/>
+      <path d="M328 241c94 20 268 21 368 2" fill="none" stroke="#8e4b24" stroke-width="9" stroke-linecap="round" opacity="0.92"/>
+      <path d="M333 235c90 16 257 18 358 2" fill="none" stroke="#d99a61" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 13" opacity="0.8"/>
+      <path d="M334 255c89 15 255 17 356 2" fill="none" stroke="#251605" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 13" opacity="0.55"/>
+
+      <!-- punched holes / small metal accents on one side -->
+      <g fill="#201008" stroke="#d19a66" stroke-width="2" opacity="0.92">
+        <circle cx="595" cy="242" r="6"/>
+        <circle cx="625" cy="239" r="6"/>
+        <circle cx="655" cy="235" r="6"/>
+        <circle cx="685" cy="229" r="6"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
