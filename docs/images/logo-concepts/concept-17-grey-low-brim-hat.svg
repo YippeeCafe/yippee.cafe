@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 17 - grey low-brim cowboy hat</title>
+  <desc id="desc">A Yippee Cafe wordmark using a grey cowboy hat reference: muted felt, low brim angle, tall creased crown, and simple dark band.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf33"/>
+      <stop offset="0.58" stop-color="#fb8500"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </linearGradient>
+    <linearGradient id="greyFelt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9c5b9"/>
+      <stop offset="0.45" stop-color="#8f8a80"/>
+      <stop offset="1" stop-color="#4b4741"/>
+    </linearGradient>
+    <linearGradient id="greyBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8d3c8"/>
+      <stop offset="0.52" stop-color="#8a857b"/>
+      <stop offset="1" stop-color="#39352f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#251605" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="feltNoise" width="36" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
+      <path d="M2 7c9-5 18-5 27 0M14 18c8-4 16-4 24 0" fill="none" stroke="#f6f0df" stroke-width="2" opacity="0.15"/>
+      <path d="M0 15c10 4 20 4 31 0" fill="none" stroke="#211f1c" stroke-width="2" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="900" rx="72" fill="#fff7e8"/>
+  <circle cx="210" cy="172" r="150" fill="#ff6f91" opacity="0.14"/>
+  <circle cx="1168" cy="236" r="190" fill="#219ebc" opacity="0.13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M203 625c164 75 501 92 908 18" fill="none" stroke="#c67a16" stroke-width="25" stroke-linecap="round"/>
+    <path d="M963 634c68 11 136 37 207 78" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
+    <ellipse cx="1063" cy="697" rx="82" ry="48" fill="none" stroke="#c67a16" stroke-width="16" transform="rotate(18 1063 697)"/>
+
+    <text x="176" y="510" fill="#251605" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="214" font-weight="900" letter-spacing="-14">Yippee</text>
+    <text x="435" y="702" fill="url(#sunset)" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Arial Rounded MT Bold, system-ui, sans-serif" font-size="174" font-weight="900" letter-spacing="-7">Cafe</text>
+
+    <!-- Grey low-brim reference: muted felt, brim pulled low/forward, simple darker band. -->
+    <g transform="translate(132 118) rotate(-8) scale(1.02)">
+      <!-- low front brim: more horizontal, shadowy, less curled than white/cream versions -->
+      <path d="M48 254c102 48 247 70 435 65 178-5 340-30 486-72 73-21 128-6 143 27 16 35-36 66-132 81-245 39-456 57-644 40-161-15-283-48-366-101-44-28 20-62 78-40z" fill="url(#greyBrim)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M48 254c102 48 247 70 435 65 178-5 340-30 486-72 73-21 128-6 143 27 16 35-36 66-132 81-245 39-456 57-644 40-161-15-283-48-366-101-44-28 20-62 78-40z" fill="url(#feltNoise)" opacity="0.55"/>
+      <!-- underside/shadow under the lowered brim -->
+      <path d="M109 282c121 30 268 39 439 27 160-11 303-32 430-63" fill="none" stroke="#f2ead7" stroke-width="10" stroke-linecap="round" opacity="0.26"/>
+      <path d="M141 315c160 40 407 36 742-13" fill="none" stroke="#211f1c" stroke-width="17" stroke-linecap="round" opacity="0.34"/>
+      <path d="M852 252c83-3 157 5 221 24" fill="none" stroke="#2f2c27" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+
+      <!-- crown appears tall but compressed by the low viewing angle -->
+      <path d="M322 276c-12-82-10-157 4-224 12-55 51-88 114-96 100-12 207 10 258 48 37 28 50 68 44 121-7 66-3 117 14 153-108 30-331 29-434-2z" fill="url(#greyFelt)" stroke="#251605" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M322 276c-12-82-10-157 4-224 12-55 51-88 114-96 100-12 207 10 258 48 37 28 50 68 44 121-7 66-3 117 14 153-108 30-331 29-434-2z" fill="url(#feltNoise)" opacity="0.58"/>
+      <!-- central pinch/crease -->
+      <path d="M455 11c-42 49-61 107-57 176" fill="none" stroke="#2e2b26" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+      <path d="M610 19c38 51 53 108 44 174" fill="none" stroke="#2e2b26" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+      <path d="M419 67c80 27 173 30 278 8" fill="none" stroke="#d7d0c1" stroke-width="15" stroke-linecap="round" opacity="0.38"/>
+      <path d="M355 151c44 9 85 6 123-8M587 155c45-8 86-5 123 8M473 213c54 12 106 9 157-8" fill="none" stroke="#d7d0c1" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+      <path d="M323 276c102 30 327 31 431 1" fill="none" stroke="#d7d0c1" stroke-width="8" stroke-linecap="round" opacity="0.38"/>
+
+      <!-- simple black/charcoal band, understated like the vest/shadow feel -->
+      <path d="M333 257c91 29 300 31 409 2" fill="none" stroke="#1c1916" stroke-width="29" stroke-linecap="round"/>
+      <path d="M349 252c99 20 278 21 381 2" fill="none" stroke="#514b43" stroke-width="7" stroke-linecap="round" opacity="0.72"/>
+      <path d="M354 246c95 16 268 18 370 2" fill="none" stroke="#bcb4a6" stroke-width="4" stroke-linecap="round" stroke-dasharray="11 15" opacity="0.45"/>
+    </g>
+  </g>
+
+  <text x="700" y="812" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
