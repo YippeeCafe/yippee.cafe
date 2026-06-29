@@ -1,55 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Yippee Cafe logo</title>
-  <desc id="desc">A playful Yippee Cafe logo with bold cafe text, a cowboy hat, a lasso loop, and a coffee cup.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe white background lower hat lockup</title>
+  <desc id="desc">A Yippee Cafe logo lockup with a cream cowboy hat, Yippee Cafe wordmark, and a lasso underline with the knot at the lower-right loop handoff.</desc>
   <defs>
-    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffcf33"/>
-      <stop offset="0.52" stop-color="#ff8a00"/>
-      <stop offset="1" stop-color="#ff5f8f"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9ec"/>
+      <stop offset="0.58" stop-color="#fff2d2"/>
+      <stop offset="1" stop-color="#ffe3a8"/>
     </linearGradient>
-    <linearGradient id="foam" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff8e8"/>
-      <stop offset="1" stop-color="#ffe9ad"/>
+    <linearGradient id="felt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset="0.46" stop-color="#eee4cb"/>
+      <stop offset="1" stop-color="#cbb98f"/>
     </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3b2108" flood-opacity="0.22"/>
+    <linearGradient id="brim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.48" stop-color="#e8d8b9"/>
+      <stop offset="1" stop-color="#a88755"/>
+    </linearGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd86c"/>
+      <stop offset="0.48" stop-color="#d98a20"/>
+      <stop offset="1" stop-color="#8e4511"/>
+    </linearGradient>
+    <radialGradient id="silver" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#fffef8"/>
+      <stop offset="0.44" stop-color="#d5d2c8"/>
+      <stop offset="1" stop-color="#4f4d46"/>
+    </radialGradient>
+    <radialGradient id="turquoise" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#d7fff8"/>
+      <stop offset="0.46" stop-color="#42c6bd"/>
+      <stop offset="1" stop-color="#0b615d"/>
+    </radialGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#3a2108" flood-opacity="0.18"/>
+    </filter>
+    <filter id="typeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#edae3f" flood-opacity="0.78"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="800" rx="72" fill="#fff6df"/>
-  <circle cx="180" cy="154" r="138" fill="#ff6f91" opacity="0.18"/>
-  <circle cx="1018" cy="176" r="170" fill="#219ebc" opacity="0.16"/>
-  <circle cx="956" cy="632" r="138" fill="#5fad56" opacity="0.16"/>
+  <rect width="600" height="600" fill="#ffffff"/>
 
-  <!-- Lasso loop -->
-  <path d="M238 436c-68-30-98-82-70-123 42-62 172-58 292-10 190 76 286 69 333 10 28-35 12-88-46-106-89-27-181 33-178 102 5 117 205 168 340 118 95-35 139-101 118-155" fill="none" stroke="#c67a16" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
-  <path d="M229 440c-43 30-83 65-120 108" fill="none" stroke="#c67a16" stroke-width="17" stroke-linecap="round"/>
-  <path d="M968 175c25 28 45 60 59 97" fill="none" stroke="#c67a16" stroke-width="15" stroke-linecap="round"/>
-
-  <!-- Badge background -->
-  <g filter="url(#softShadow)">
-    <path d="M179 544c72-128 206-211 374-226 186-16 361 38 487 146 28 24 31 66 6 93-96 103-269 157-461 151-183-6-340-68-405-156-2-3-3-5-1-8z" fill="url(#foam)" stroke="#251605" stroke-width="10"/>
+  <!-- Hat: prominent top icon, separate from type so it never covers the wordmark. -->
+  <g transform="translate(68 70) rotate(-5) scale(.42)" filter="url(#shadow)">
+    <path d="M34 247 C146 294 310 318 502 307 C675 297 833 267 982 215 C1045 193 1105 204 1124 239 C1147 280 1086 319 985 338 C748 385 529 405 330 387 C175 373 55 340 -41 282 C-88 254 -24 223 34 247Z" fill="url(#brim)" stroke="#211506" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M88 255 C224 285 386 294 559 282 C722 271 865 247 996 211" fill="none" stroke="#fff9e7" stroke-width="10" stroke-linecap="round" opacity="0.76"/>
+    <path d="M304 282 C291 193 296 116 319 45 C337 -11 382 -42 449 -49 C553 -60 643 -40 693 2 C732 34 747 77 741 132 C733 197 739 247 758 280 C642 316 421 316 304 282Z" fill="url(#felt)" stroke="#211506" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M403 50 C482 82 591 87 704 59" fill="none" stroke="#fffdf0" stroke-width="15" stroke-linecap="round" opacity="0.82"/>
+    <path d="M462 -38 C417 18 398 82 404 154" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.52"/>
+    <path d="M616 -30 C654 24 668 86 657 155" fill="none" stroke="#b6a47b" stroke-width="11" stroke-linecap="round" opacity="0.5"/>
+    <path d="M319 259 C423 292 641 294 746 263" fill="none" stroke="#1c1712" stroke-width="36" stroke-linecap="round"/>
+    <path d="M337 254 C446 276 628 277 730 257" fill="none" stroke="#4c3728" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="371" cy="257" r="18" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="430" cy="267" r="9" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="488" cy="270" r="9" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="546" cy="270" r="9" fill="url(#turquoise)" stroke="#211506" stroke-width="3"/>
+    <circle cx="604" cy="265" r="9" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
+    <circle cx="688" cy="252" r="18" fill="url(#silver)" stroke="#211506" stroke-width="3"/>
   </g>
 
-  <!-- Coffee cup mark -->
-  <g transform="translate(774 482) rotate(-5)">
-    <path d="M42 44h160l-18 123c-5 35-36 61-72 61H88c-36 0-67-26-72-61L-2 44h44z" fill="#ffffff" stroke="#251605" stroke-width="10" stroke-linejoin="round"/>
-    <path d="M199 74h30c32 0 56 26 52 57-4 29-29 51-59 51h-39" fill="none" stroke="#251605" stroke-width="10" stroke-linecap="round"/>
-    <path d="M44 82h154" stroke="#ffb703" stroke-width="18" stroke-linecap="round"/>
-    <path d="M66 20c-15-19-5-37 10-52M120 22c-16-22-3-39 10-57M174 20c-16-20-4-39 10-56" fill="none" stroke="#fb8500" stroke-width="10" stroke-linecap="round" opacity="0.82"/>
+  <g filter="url(#typeShadow)">
+    <text x="300" y="348" text-anchor="middle" fill="#241507" font-family="Georgia, 'Times New Roman', serif" font-size="116" font-weight="900" letter-spacing="-5">Yippee</text>
   </g>
+  <path d="M127 366 C178 382 422 382 473 366" fill="none" stroke="#241507" stroke-width="5" stroke-linecap="round" opacity="0.88"/>
+  <text x="300" y="444" text-anchor="middle" fill="#fff9ec" stroke="#241507" stroke-width="5" paint-order="stroke fill" font-family="Avenir Next, Montserrat, Inter, system-ui, sans-serif" font-size="68" font-weight="900" letter-spacing="14">CAFE</text>
 
-  <!-- Cowboy hat -->
-  <g transform="translate(384 196) rotate(-8)">
-    <path d="M64 128c33-65 82-97 147-97 40 0 64 25 85 25 20 0 43-18 71-6 35 15 54 51 61 104-90 18-184 16-364-26z" fill="#8b4a17" stroke="#251605" stroke-width="10" stroke-linejoin="round"/>
-    <path d="M92 127c66 28 173 43 311 23" fill="none" stroke="#ffcf33" stroke-width="18" stroke-linecap="round"/>
-    <path d="M8 142c110 47 270 60 492 15 27-5 48 21 31 43-30 40-103 63-219 70-136 8-244-13-321-64-24-16-12-74 17-64z" fill="#a85f21" stroke="#251605" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Compact physically correct lasso: swoosh under the lockup, one loop and one honda knot. -->
+  <g filter="url(#shadow)">
+    <path d="M75 487 C150 520 275 522 395 497 C421 492 438 479 449 442" fill="none" stroke="#754010" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M75 487 C150 520 275 522 395 497 C421 492 438 479 449 442" fill="none" stroke="url(#rope)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M88 492 C164 514 276 514 390 492 C413 487 428 475 439 443" fill="none" stroke="#ffe38c" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.86"/>
+    <path d="M449 442 C449 402 482 374 526 376 C570 378 592 408 572 445 C550 486 477 489 455 456 C452 451 450 446 449 442Z" fill="none" stroke="#754010" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M449 442 C449 402 482 374 526 376 C570 378 592 408 572 445 C550 486 477 489 455 456 C452 451 450 446 449 442Z" fill="none" stroke="url(#rope)" stroke-width="12" stroke-linejoin="round"/>
+    <g transform="translate(449 442) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="15" ry="11" fill="#bf6a18" stroke="#754010" stroke-width="5"/>
+      <ellipse cx="-2" cy="-1" rx="5" ry="3" fill="#fff1a3" opacity="0.5"/>
+    </g>
   </g>
-
-  <!-- Wordmark -->
-  <text x="178" y="504" fill="#251605" font-family="Cooper Black, Baloo 2, Avenir Next Rounded, Arial Rounded MT Bold, system-ui, sans-serif" font-size="154" font-weight="900" letter-spacing="-9">Yippee</text>
-  <text x="282" y="640" fill="url(#sunset)" stroke="#251605" stroke-width="5" paint-order="stroke fill" font-family="Cooper Black, Baloo 2, Avenir Next Rounded, Arial Rounded MT Bold, system-ui, sans-serif" font-size="126" font-weight="900" letter-spacing="-5">Cafe</text>
-
-  <path d="M229 683c113 43 316 67 537 20" fill="none" stroke="#219ebc" stroke-width="16" stroke-linecap="round" opacity="0.82"/>
-  <text x="600" y="746" text-anchor="middle" fill="#6c4a1f" font-family="Inter, Avenir Next, system-ui, sans-serif" font-size="33" font-weight="900" letter-spacing="5">PLAYFUL APPS • GAMES • TOOLS</text>
 </svg>

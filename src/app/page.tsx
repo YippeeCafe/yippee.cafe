@@ -23,7 +23,7 @@ export default function Home() {
         <img
           className="brand-logo"
           src="/images/yippee-cafe-logo.svg"
-          alt="Yippee Cafe logo with a cowboy hat, lasso, and coffee cup"
+          alt="Yippee Cafe logo with a cream cowboy hat, wordmark, and lasso"
         />
         <div className="badge">fresh domain smell ✨</div>
         <h1>Yippee Cafe</h1>
