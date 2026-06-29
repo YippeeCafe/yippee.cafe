@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe logo concept 18 - refined typography and correct lasso</title>
+  <desc id="desc">A refined Yippee Cafe wordmark with a connected white cowboy hat, cleaner typography, and a physically plausible single-loop lasso swoosh.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#fff0c8"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd862"/>
+      <stop offset="0.55" stop-color="#d8891c"/>
+      <stop offset="1" stop-color="#a4570e"/>
+    </linearGradient>
+    <linearGradient id="whiteFelt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffef6"/>
+      <stop offset="0.52" stop-color="#efe8d7"/>
+      <stop offset="1" stop-color="#cfc4ad"/>
+    </linearGradient>
+    <linearGradient id="whiteBrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset="0.56" stop-color="#eadfc9"/>
+      <stop offset="1" stop-color="#b9aa8e"/>
+    </linearGradient>
+    <radialGradient id="silver" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset="0.43" stop-color="#cfccc3"/>
+      <stop offset="1" stop-color="#5a5a54"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3b2108" flood-opacity="0.18"/>
+    </filter>
+    <filter id="letterShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="0" flood-color="#f3bd60" flood-opacity="0.62"/>
+    </filter>
+    <filter id="tinyShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#251605" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="900" rx="72" fill="url(#paper)"/>
+  <circle cx="198" cy="154" r="146" fill="#ff6f91" opacity="0.13"/>
+  <circle cx="1180" cy="220" r="190" fill="#219ebc" opacity="0.12"/>
+
+  <!-- Physically plausible lasso: one closed running loop, one honda knot, and one standing rope that exits as a swoosh. No rope ends on the loop side. -->
+  <g filter="url(#softShadow)" opacity="0.98">
+    <!-- standing rope / swoosh: this is the only free rope run, entering from the left and feeding into the honda knot -->
+    <path d="M157 608 C314 690 548 712 792 666 C834 658 856 640 872 528" fill="none" stroke="#7b3f11" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M157 608 C314 690 548 712 792 666 C834 658 856 640 872 528" fill="none" stroke="url(#gold)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M171 614 C330 685 551 702 786 660 C828 652 849 634 864 530" fill="none" stroke="#ffe18d" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 22" opacity="0.86"/>
+
+    <!-- closed loop: stroked closed path means no visible rope ends on the loop itself -->
+    <path d="M872 528 C879 444 960 390 1045 406 C1118 420 1130 479 1083 536 C1019 614 887 612 872 528 Z" fill="none" stroke="#7b3f11" stroke-width="31" stroke-linejoin="round"/>
+    <path d="M872 528 C879 444 960 390 1045 406 C1118 420 1130 479 1083 536 C1019 614 887 612 872 528 Z" fill="none" stroke="url(#gold)" stroke-width="23" stroke-linejoin="round"/>
+    <path d="M888 526 C895 459 962 415 1036 429 C1092 440 1104 485 1065 529 C1013 587 906 588 888 526 Z" fill="none" stroke="#ffe18d" stroke-width="4" stroke-dasharray="2 22" opacity="0.78"/>
+
+    <!-- honda knot: the single intentional knot where the standing rope feeds through the loop. -->
+    <g transform="translate(872 528) rotate(-14)">
+      <ellipse cx="0" cy="0" rx="26" ry="19" fill="#bd6b18" stroke="#7b3f11" stroke-width="9"/>
+      <ellipse cx="0" cy="0" rx="10" ry="7" fill="#fff1a6" opacity="0.42"/>
+    </g>
+  </g>
+
+  <!-- Connected hat: brim is drawn first, crown overlaps it, band sits exactly on the seam, so there is no crown/brim gap. -->
+  <g transform="translate(690 86) rotate(-7) scale(.84)" filter="url(#tinyShadow)">
+    <path d="M42 235 C151 284 300 304 486 294 C661 285 822 255 970 209 C1040 187 1095 200 1114 235 C1134 271 1086 305 991 323 C746 369 532 392 346 378 C184 366 59 332 -28 278 C-76 248 -14 211 42 235Z" fill="url(#whiteBrim)" stroke="#251605" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M96 246 C224 274 376 283 548 273 C715 264 864 241 995 205" fill="none" stroke="#fffdf4" stroke-width="11" stroke-linecap="round" opacity="0.76"/>
+    <path d="M312 274 C300 193 302 120 316 52 C328 -7 369 -42 433 -50 C534 -63 642 -40 693 0 C731 30 744 71 738 125 C731 192 735 243 753 278 C644 310 416 308 312 274Z" fill="url(#whiteFelt)" stroke="#251605" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M414 54 C496 82 591 85 700 61" fill="none" stroke="#fffdf4" stroke-width="16" stroke-linecap="round" opacity="0.82"/>
+    <path d="M453 -39 C412 10 393 69 397 138" fill="none" stroke="#b9ad97" stroke-width="12" stroke-linecap="round" opacity="0.48"/>
+    <path d="M612 -30 C650 21 665 79 656 145" fill="none" stroke="#b9ad97" stroke-width="12" stroke-linecap="round" opacity="0.48"/>
+    <!-- band covers the crown/brim seam instead of floating above it -->
+    <path d="M323 254 C416 283 635 286 742 258" fill="none" stroke="#15120f" stroke-width="34" stroke-linecap="round"/>
+    <path d="M342 249 C442 269 630 270 732 252" fill="none" stroke="#3c302b" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+    <g stroke="#1e1e1c" stroke-width="3">
+      <circle cx="365" cy="251" r="16" fill="url(#silver)"/>
+      <circle cx="430" cy="260" r="8" fill="url(#silver)"/>
+      <circle cx="490" cy="263" r="8" fill="url(#silver)"/>
+      <circle cx="550" cy="263" r="8" fill="url(#silver)"/>
+      <circle cx="610" cy="258" r="8" fill="url(#silver)"/>
+      <circle cx="692" cy="246" r="16" fill="url(#silver)"/>
+    </g>
+  </g>
+
+  <g filter="url(#letterShadow)">
+    <text x="142" y="486" fill="#251605" font-family="Rockwell, New York, Georgia, serif" font-size="190" font-weight="900" letter-spacing="-7">Yippee</text>
+  </g>
+  <text x="435" y="613" fill="#fff8ea" stroke="#251605" stroke-width="7" paint-order="stroke fill" font-family="Avenir Next, Avenir, Arial Rounded MT Bold, system-ui, sans-serif" font-size="112" font-weight="900" letter-spacing="18">CAFE</text>
+  <path d="M430 637 C548 664 733 665 892 626" fill="none" stroke="#219ebc" stroke-width="14" stroke-linecap="round" opacity="0.78"/>
+
+  <text x="700" y="804" text-anchor="middle" fill="#6c4a1f" font-family="Avenir Next, Inter, system-ui, sans-serif" font-size="31" font-weight="900" letter-spacing="6">PLAYFUL APPS • GAMES • TOOLS</text>
+</svg>
