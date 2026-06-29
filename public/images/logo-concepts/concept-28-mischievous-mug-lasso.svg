@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe mischievous coffee mug lasso mascot concept</title>
+  <desc id="desc">A playful icon concept for Yippee Cafe: a mischievous coffee mug mascot with steam, expressive eyebrows, beady eyes, a smirking grin, and a lasso threading through the mug handle.</desc>
+  <defs>
+    <linearGradient id="mug" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="0.52" stop-color="#fff2cf"/>
+      <stop offset="1" stop-color="#d6b172"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a4218"/>
+      <stop offset="1" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.5" stop-color="#d98b20"/>
+      <stop offset="1" stop-color="#7a3b0d"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="34%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#15110e"/>
+      <stop offset="1" stop-color="#020101"/>
+    </radialGradient>
+    <radialGradient id="turquoise" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#d7fff8"/>
+      <stop offset="0.5" stop-color="#3ec2bc"/>
+      <stop offset="1" stop-color="#095a56"/>
+    </radialGradient>
+    <filter id="lift" x="-14%" y="-14%" width="128%" height="128%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#2b1805" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="#ffffff"/>
+
+  <!-- Steam: cafe cue without making the top too noisy. -->
+  <g fill="none" stroke="#6f3d16" stroke-width="13" stroke-linecap="round" opacity="0.78">
+    <path d="M216 154 C174 103 244 80 211 38"/>
+    <path d="M296 143 C257 96 335 78 299 31"/>
+    <path d="M375 154 C333 105 402 83 370 39"/>
+  </g>
+
+  <!-- Lasso: the handle participates as the holding loop; rope stays simpler than the full logo lariat. -->
+  <g filter="url(#lift)">
+    <path d="M98 441 C198 508 371 518 488 434 C546 392 544 319 493 287 C442 255 368 279 355 336 C342 396 417 421 459 378" fill="none" stroke="#6f360d" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M98 441 C198 508 371 518 488 434 C546 392 544 319 493 287 C442 255 368 279 355 336 C342 396 417 421 459 378" fill="none" stroke="url(#rope)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M116 443 C215 493 372 496 476 423" fill="none" stroke="#ffe9a8" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="2 17" opacity="0.78"/>
+  </g>
+
+  <!-- Mug body: flat-ish icon shading, no cheap smiley face. -->
+  <g filter="url(#lift)">
+    <path d="M139 235 C139 198 168 176 215 176 H359 C406 176 435 198 435 235 V346 C435 433 382 481 287 481 C192 481 139 433 139 346Z" fill="url(#mug)" stroke="#211506" stroke-width="15" stroke-linejoin="round"/>
+    <path d="M432 251 H474 C543 251 563 341 506 383 C478 404 447 400 429 379" fill="none" stroke="#211506" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M447 283 H471 C509 283 518 331 488 353 C474 364 457 362 445 350" fill="none" stroke="#d98b20" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M178 220 C219 241 337 242 395 219" fill="none" stroke="url(#coffee)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M179 251 C218 265 345 267 395 250" fill="none" stroke="#fff8e7" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Strong asymmetric brows. -->
+    <path d="M206 294 C236 278 265 278 292 292" fill="none" stroke="#211506" stroke-width="15" stroke-linecap="round"/>
+    <path d="M331 277 C359 292 386 311 410 336" fill="none" stroke="#211506" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- Dark glassy beady eyes. -->
+    <ellipse cx="248" cy="327" rx="17" ry="21" fill="url(#eye)" stroke="#080403" stroke-width="5"/>
+    <ellipse cx="356" cy="327" rx="17" ry="21" fill="url(#eye)" stroke="#080403" stroke-width="5"/>
+    <circle cx="241" cy="319" r="4.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="349" cy="319" r="4.5" fill="#ffffff" opacity="0.9"/>
+
+    <!-- Mischievous flat-smile/smirk: dark line, not a cartoon mouth blob. -->
+    <path d="M231 392 C270 416 333 412 377 376" fill="none" stroke="#211506" stroke-width="13" stroke-linecap="round"/>
+    <path d="M375 376 C388 374 400 379 409 390" fill="none" stroke="#211506" stroke-width="9" stroke-linecap="round"/>
+    <path d="M270 407 L281 425" stroke="#211506" stroke-width="6" stroke-linecap="round"/>
+    <path d="M331 403 L340 421" stroke="#211506" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Small brand accent: concho-ish badge instead of random confetti. -->
+    <circle cx="287" cy="452" r="14" fill="url(#turquoise)" stroke="#211506" stroke-width="5"/>
+  </g>
+</svg>
