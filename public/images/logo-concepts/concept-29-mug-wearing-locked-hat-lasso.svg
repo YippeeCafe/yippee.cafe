@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Yippee Cafe mug mascot wearing locked cowboy hat and lasso</title>
+  <desc id="desc">A Yippee Cafe mascot concept: a mischievous coffee mug wearing the locked cream cowboy hat, with steam and a simple lasso threading through the mug handle.</desc>
+  <defs>
+    <linearGradient id="mug" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="0.52" stop-color="#fff2cf"/>
+      <stop offset="1" stop-color="#d6b172"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a4218"/>
+      <stop offset="1" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="felt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf3"/>
+      <stop offset="0.58" stop-color="#efe2c7"/>
+      <stop offset="1" stop-color="#c6a86f"/>
+    </linearGradient>
+    <linearGradient id="brim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9e8"/>
+      <stop offset="0.52" stop-color="#e8d2a3"/>
+      <stop offset="1" stop-color="#9a6a2d"/>
+    </linearGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.5" stop-color="#d98b20"/>
+      <stop offset="1" stop-color="#7a3b0d"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="34%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#15110e"/>
+      <stop offset="1" stop-color="#020101"/>
+    </radialGradient>
+    <radialGradient id="silver" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#fffef7"/>
+      <stop offset="0.46" stop-color="#d4d1c6"/>
+      <stop offset="1" stop-color="#4a4841"/>
+    </radialGradient>
+    <radialGradient id="turquoise" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#d7fff8"/>
+      <stop offset="0.52" stop-color="#3ec2bc"/>
+      <stop offset="1" stop-color="#095a56"/>
+    </radialGradient>
+    <filter id="lift" x="-14%" y="-14%" width="128%" height="128%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#2b1805" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="#ffffff"/>
+
+  <!-- Steam stays visible around the hat, but the hat is now the locked brand anchor. -->
+  <g fill="none" stroke="#6f3d16" stroke-width="11" stroke-linecap="round" opacity="0.58">
+    <path d="M196 185 C168 145 226 132 199 96"/>
+    <path d="M303 169 C272 128 339 113 310 73"/>
+    <path d="M405 185 C375 145 433 130 406 95"/>
+  </g>
+
+  <!-- Lasso: simple, lower, and threaded through/around the mug handle. -->
+  <g filter="url(#lift)">
+    <path d="M87 440 C190 505 369 515 491 432 C551 391 552 321 501 291 C450 261 380 284 369 337 C356 398 429 418 469 376" fill="none" stroke="#6f360d" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M87 440 C190 505 369 515 491 432 C551 391 552 321 501 291 C450 261 380 284 369 337 C356 398 429 418 469 376" fill="none" stroke="url(#rope)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M107 442 C207 490 369 494 478 421" fill="none" stroke="#ffe9a8" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 17" opacity="0.75"/>
+  </g>
+
+  <!-- Mug mascot body. -->
+  <g filter="url(#lift)">
+    <path d="M146 253 C146 218 174 197 219 197 H357 C402 197 430 218 430 253 V351 C430 433 378 480 288 480 C198 480 146 433 146 351Z" fill="url(#mug)" stroke="#211506" stroke-width="15" stroke-linejoin="round"/>
+    <path d="M427 267 H468 C536 267 556 354 500 395 C473 414 444 411 427 390" fill="none" stroke="#211506" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M444 298 H466 C503 298 512 344 482 365 C469 375 453 374 442 361" fill="none" stroke="#d98b20" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M184 237 C225 256 338 257 392 236" fill="none" stroke="url(#coffee)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M186 265 C225 279 343 280 391 263" fill="none" stroke="#fff8e7" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Mischievous expression, strong but not full cartoon chaos. -->
+    <path d="M209 306 C238 291 265 293 290 307" fill="none" stroke="#211506" stroke-width="14" stroke-linecap="round"/>
+    <path d="M329 290 C358 305 383 324 405 348" fill="none" stroke="#211506" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="249" cy="337" rx="16" ry="20" fill="url(#eye)" stroke="#080403" stroke-width="5"/>
+    <ellipse cx="354" cy="337" rx="16" ry="20" fill="url(#eye)" stroke="#080403" stroke-width="5"/>
+    <circle cx="243" cy="329" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="348" cy="329" r="4" fill="#ffffff" opacity="0.9"/>
+    <path d="M234 401 C272 421 330 416 372 384" fill="none" stroke="#211506" stroke-width="13" stroke-linecap="round"/>
+    <path d="M370 384 C384 382 395 386 404 397" fill="none" stroke="#211506" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- Locked hat: same cream western hat language as the chosen family, scaled onto the mug. -->
+  <g transform="translate(71 78) rotate(-5) scale(.40)" filter="url(#lift)">
+    <path d="M30 260 C143 306 307 329 498 317 C682 306 848 273 997 219 C1062 196 1121 207 1142 244 C1164 284 1103 325 1000 346 C747 396 516 416 314 394 C164 378 44 344 -48 286 C-95 256 -29 236 30 260Z" fill="url(#brim)" stroke="#211506" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M98 269 C229 298 392 306 564 294 C731 282 878 257 1010 220" fill="none" stroke="#fff8df" stroke-width="13" stroke-linecap="round" opacity="0.78"/>
+    <path d="M310 291 C295 201 301 120 324 49 C343 -9 389 -43 458 -50 C562 -62 653 -41 705 2 C744 35 759 78 752 136 C744 203 751 254 770 289 C649 326 428 326 310 291Z" fill="url(#felt)" stroke="#211506" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M408 54 C493 86 600 92 715 61" fill="none" stroke="#fffdf0" stroke-width="18" stroke-linecap="round" opacity="0.84"/>
+    <path d="M468 -36 C423 22 405 88 411 160" fill="none" stroke="#b09866" stroke-width="13" stroke-linecap="round" opacity="0.54"/>
+    <path d="M625 -28 C665 28 678 91 665 161" fill="none" stroke="#b09866" stroke-width="13" stroke-linecap="round" opacity="0.5"/>
+    <path d="M323 269 C433 304 650 306 759 272" fill="none" stroke="#18130e" stroke-width="41" stroke-linecap="round"/>
+    <path d="M342 264 C456 288 635 289 743 266" fill="none" stroke="#4c3728" stroke-width="11" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="377" cy="268" r="21" fill="url(#silver)" stroke="#211506" stroke-width="4"/>
+    <circle cx="445" cy="280" r="11" fill="url(#turquoise)" stroke="#211506" stroke-width="4"/>
+    <circle cx="515" cy="283" r="11" fill="url(#silver)" stroke="#211506" stroke-width="4"/>
+    <circle cx="585" cy="281" r="11" fill="url(#turquoise)" stroke="#211506" stroke-width="4"/>
+    <circle cx="662" cy="273" r="11" fill="url(#silver)" stroke="#211506" stroke-width="4"/>
+    <circle cx="733" cy="259" r="21" fill="url(#silver)" stroke="#211506" stroke-width="4"/>
+  </g>
+</svg>
